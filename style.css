@@ -10,7 +10,7 @@ nav {
     font-family: 'Oswald', sans-serif;
 }
 a {
-    color: blueviolet;
+    color: brown;
     text-decoration: none;
 }
 nav a:hover{
@@ -55,4 +55,22 @@ section div input:nth-child(4){
     box-shadow: 1px 0px 9px grey;
     font-weight: 700;
 
+}
+footer{
+    width: 100vw;
+    height: 100px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+footer div{
+    background-color: grey;
+    width: auto;
+   
+}
+footer div img {
+    width: 30px;
+    height: 30px;
 }
