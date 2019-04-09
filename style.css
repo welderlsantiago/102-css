@@ -13,9 +13,46 @@ a {
     color: blueviolet;
     text-decoration: none;
 }
+nav a:hover{
+    color: crimson;
+    text-decoration: underline;
+}
 nav a:first-child{
     color: beige;
+    font-size: 22pt;
+    font-weight: 900px;
 }
-nav a:nth-child(3){
-    color: brown;
+section {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+section div{
+    display: flex;
+    flex-direction: column;
+    height: 170px;
+    background-color: blue;
+    align-items: center;
+    border-radius: 10px;
+}
+div input{
+    margin: 2px;
+    border-radius: 2px;
+}
+section div input:focus{
+    background-color: gold;
+}
+input::placeholder{
+    color: red;
+    font-size: 12pt;
+    text-align: center;
+}
+section div input:nth-child(4){
+    margin-top: 20px;
+    width: 50%; 
+    background-color: blanchedalmond;
+    border-radius: 8px;
+    box-shadow: 1px 0px 9px grey;
+    font-weight: 700;
+
 }
